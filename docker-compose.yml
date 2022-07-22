@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  snmpsim:
+    image: snmpsim
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    volumes:
+      - ./local:/usr/local/snmpsim/data/local
+
+    ports:
+      - 2024:2024/udp
