@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.9.5
+FROM python:3.7
 
 #MAINTANER Your Name "mmahacek@opennms.com"
 
